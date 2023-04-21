@@ -12,6 +12,7 @@
     background-size: cover;
     position: relative;
     overflow: hidden;
+    padding-left: 3px;
 }
 .text-box
 {
@@ -34,29 +35,39 @@
     height:48vh;
     width:93vh;
     margin:auto;
-    
+    padding-left: 10px;
+    padding-right: 10px;
    
+}
+@media(max-width:402px)
+{
+    #kol
+    {
+        height:75vh;
+    }
 }
 #kolk
 {
     height:48vh;  
     width:59vh;
     margin:auto;
+    padding-left: 12px;
 }
 /*for library6.html and library4.html file separate styling*/
 #kol1
 {
-    height:87vh;
-    width:93vh;
-    margin:auto;
-    
+    height: 103vh;
+    width: 93vh;
+    margin: auto;
+    padding-left: 9px;
+    padding-right: 9px;
    
 }
 #kolk1
 {
-    height:87vh;  
+    height:115vh;  
     width:59vh;
-    margin:auto;
+    margin:auto;    padding-left: 11px;
 }
 /*for library3.html  file separate styling*/
 #kol2
@@ -64,14 +75,27 @@
     height:61vh;
     width:93vh;
     margin:auto;
-    
+    padding-left: 9px;
    
+}
+@media(max-width:396px)
+{
+    #kol2
+{
+    height:93vh;
+    width:93vh;
+    margin:auto;
+    padding-left: 9px;
+   
+}
 }
 #kolk2
 {
     height:61vh;  
     width:59vh;
     margin:auto;
+    padding-left: 13px;
+   
 }
 
 /*for library1.html and library7.html  file separate styling*/
@@ -80,14 +104,23 @@
     height:30vh;
     width:93vh;
     margin:auto;
-    
+    padding-left: 10px;
+    padding-right: 10px;
    
+}
+@media(max-width:389px)
+{
+    #kol3
+    {
+        height:40vh;
+    }
 }
 #kolk3
 {
     height:30vh;  
     width:59vh;
     margin:auto;
+    padding-left: 11px;
 }
 
 #bang
@@ -107,6 +140,7 @@
     flex-wrap: wrap;
     justify-content: center;
     background-color: rgb(170, 69, 69);
+    padding-left: 14px;
     
 }
 #a
@@ -190,4 +224,35 @@ nav {
 
 nav .fa {
     display: none;
+}
+#kol4
+{
+    height:85vh;
+    width:93vh;
+    margin:auto;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+#kol5
+{
+    height: 119vh;
+    width: 93vh;
+    margin: auto;
+    padding-left: 9px;
+    padding-right: 9px;
+   
+}
+#kolk5
+{
+    height:107vh;  
+    width:59vh;
+    margin:auto;    padding-left: 11px;
+}
+#kolk4
+{
+    height:85vh;  
+    width:59vh;
+    margin:auto;
+    padding-left: 13px;
+   
 }
